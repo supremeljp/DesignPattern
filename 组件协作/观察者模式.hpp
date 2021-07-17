@@ -1,6 +1,6 @@
 #include <vector>
 // 进度通知抽象接口
-class IProgress
+class IProgress // 观察者
 {
 public:
     virtual ~IProgress() {}
